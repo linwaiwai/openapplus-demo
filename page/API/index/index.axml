@@ -1,0 +1,11 @@
+<import src="/util/lifecycle.axml" />
+<import src="/util/grid/index.axml" />
+<import src="/util/items/index.axml" />
+
+<view class="container">
+  <template is="grid" data="{{...arr}}" />
+</view>
+
+<template is="items" data="{{hidden: hidden, list: arr.list[curIndex], onChildItemTap: arr.onChildItemTap, animMaskData, animContentData}}" />
+
+<template is="lifecycle" a:if="{{debug}}"/>

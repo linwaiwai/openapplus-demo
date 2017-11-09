@@ -1,0 +1,17 @@
+<template name="Collapse">
+  <view class="a-collapse">
+    <view a:for={{panels}}>
+      <view
+        class="a-collapse-title"
+        onTap="{{onTitleTap}}"
+        data-index={{index}}
+      >
+        {{item.title}}
+        <view class="{{item.expanded ? 'a-collapse-title-arrow a-collapse-title-arrow-up' : 'a-collapse-title-arrow'}}" />
+      </view>
+      <view class="a-collapse-content" a:if={{item.expanded}}>
+        {{item.content}}
+      </view>
+    </view>
+  </view>
+</template>

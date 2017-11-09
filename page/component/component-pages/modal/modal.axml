@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="page-description">弹窗</view>
+  <button type="default" onTap="modalTap1">点击弹出 alert</button>
+  <button type="default" onTap="modalTap2">点击弹出 confirm</button>
+</view>

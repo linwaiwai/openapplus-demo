@@ -1,0 +1,29 @@
+<template name="List">
+    <scroll-view scroll-y>
+        <view>
+            <view class="a-list">
+                <block a:if={{header}}>
+                    <view class="a-list-header">{{header}}</view>
+                </block>
+                <view a:if={{data}} class="a-list-items">
+                    <block a:for={{data}}>
+                        <view
+                            class="a-list-item {{index !== (data.length - 1) ? '': 'last'}} am-list-item-{{item.align || 'middle'}}"
+                            hover-class="a-list-item-hover"
+                            onTap="{{onItemTap}}"
+                            data-index={{index}}
+                        >
+                            <view class="a-list-item-line {{item.textMode ? 'a-list-item-line-' + item.textMode : ''}}">
+                                <image a:if={{item.thumb}} class="a-list-item-thumb" src="{{item.thumb}}" mode="scaleToFill" />
+                                <text class="a-list-item-content">{{item.title}}</text>
+                                <view a:if={{item.extra}} class="a-list-item-extra" >{{item.extra}}</view>
+                                <view a:if={{item.arrow}} class="a-list-arrow a-list-arrow-{{item.arrow}}" />
+                                <view class="a-list-item-bottom" />
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</template>

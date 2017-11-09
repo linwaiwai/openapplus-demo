@@ -1,0 +1,4 @@
+<view class="page">
+  <view class="page-description">显示/隐藏提示</view>
+  <button type="default" onTap="loadingTap">延迟 1s 弹出 loading，2s 后隐藏</button>
+</view>

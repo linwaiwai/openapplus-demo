@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <view class="page-body-info">
+        <text class="page-body-text-small">请选择图片</text>
+        <block a:if="{{tempFilePath != ''}}">
+          <image src="{{tempFilePath}}" class="image"></image>
+        </block>
+        <block a:if="{{tempFilePath === '' && savedFilePath != ''}}">
+          <image src="{{savedFilePath}}" class="image"></image>
+        </block>
+        <block a:if="{{tempFilePath === '' && savedFilePath === ''}}">
+          <view class="image-plus" onTap="chooseImage">
+            <view class="image-plus-horizontal">
+              <view class="image-plus-vertical"></view>
+            </view>
+          </view>
+        </block>
+      </view>
+      <view class="page-body-buttons">
+        <button class="page-body-button" type="primary" onTap="saveFile">保存文件</button>
+        <button class="page-body-button" onTap="clear">删除文件</button>
+      </view>
+    </view>
+  </view>
+</view>

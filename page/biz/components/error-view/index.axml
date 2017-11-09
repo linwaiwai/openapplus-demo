@@ -1,0 +1,19 @@
+<template name="ErrorView">
+    <view class="a-error-view-wrapper">
+        <image
+            class="a-error-view-pic"
+            src="{{errorImg
+                || '/image/error-view/' + (type || 'error') + '.png'}}"
+        />
+        <view class="a-error-view-title">{{title}}</view>
+        <view class="a-error-view-result-view">{{resultView}}</view>
+        <view class="a-error-view-action" a:if="{{button}}">
+            <view
+                class="a-error-view-button"
+                hover-class="a-error-view-button-hover"
+                onTap="{{onButtonTap || 'handleErrorButtonTap'}}"
+                data-href={{href}}
+            >{{button}}</view>
+        </view>
+    </view>
+</template>

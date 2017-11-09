@@ -1,0 +1,48 @@
+<template name="DropdownSelect">
+    <view a:if="{{listData}}" class="a-dropdown-wrapper {{active ? 'expand' : ''}}">
+        <view id="a-dropdown-nav" class="a-dropdown-nav">
+            <block a:for={{listData}}>
+                <view
+                    class="a-dropdown-nav-item {{ active && selectedNav ===index ? 'active' : ''}}"
+                    hover-class="a-dropdown-nav-item-hover"
+                    onTap="_onNavItemTap"
+                    data-index={{index}}
+                >
+                    <text>{{item.nav}}</text>
+                    <view class="triangle"></view>
+                </view>
+            </block>
+        </view>
+
+        <scroll-view scroll-y="{{true}}" class="a-dropdown-contents">
+            <block a:for={{listData}} a:for-item="list" a:for-index="parentIndex">
+                <view hidden="{{selectedNav !== parentIndex}}">
+                    <view class="a-dropdown-list-items {{active? 'show' : ''}}">
+                        <block a:for={{list.data}} >
+                            <view
+                                class="a-dropdown-list-item {{index !== (list.data.length - 1) ? '': 'last'}} {{index === list.selectedItem ? 'selected': ''}}"
+                                hover-class="a-dropdown-list-item-hover"
+                                onTap="{{list.onListItemTap || '_onListItemTap'}}"
+                                catchTap="{{list.onListItemTap || '_catchListItemTap'}}"
+                                data-index={{index}}
+                                data-parentIndex={{parentIndex}}
+                                data-title={{item.title}}
+                            >
+                                <view class="a-dropdown-list-item-line {{item.textMode ? 'a-dropdown-list-item-line-' + item.textMode : ''}}">
+                                    <image a:if={{item.thumb}} class="a-dropdown-list-item-thumb" src="{{item.thumb}}" mode="scaleToFill" />
+                                    <text class="a-dropdown-list-item-content">{{item.title}}</text>
+                                    <view a:if={{item.extra}} class="a-dropdown-list-item-extra" >{{item.extra}}</view>
+                                    <view class="a-dropdown-list-item-check"/>
+                                    <view class="a-dropdown-list-item-bottom" />
+                                </view>
+                            </view>
+                        </block>
+                    </view>
+                </view>
+            </block>
+        </scroll-view>
+
+        <view class="a-dropdown-placeholder"></view>
+        <view class="a-dropdown-bg" onTap="_catchBgTap"></view>
+    </view>
+</template>

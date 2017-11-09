@@ -1,0 +1,8 @@
+<import src="/util/lifecycle.axml" />
+<import src="/util/grid/index.axml" />
+
+<view class="container">
+  <template is="grid" data="{{...arr}}" />
+</view>
+
+<template is="lifecycle" a:if="{{debug}}"/>

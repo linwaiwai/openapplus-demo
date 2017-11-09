@@ -1,0 +1,13 @@
+<import src="../../components/tag/index.axml" />
+
+<view class="container">
+    <view class="mt-24"><text>事故类别：</text></view>
+    <view class="tag-list">
+        <block a:for="{{tags}}">
+            <template is="tag" data="{{props: tags[index]}}"  />
+        </block>
+    </view>
+    <view class="mt-24">
+        <text>您选择的是: {{selectedLables}}</text>
+    </view>
+</view>

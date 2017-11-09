@@ -1,0 +1,59 @@
+.a-error-view-wrapper {
+  padding-top: 240rpx;
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+.a-error-view-pic {
+  width: 570rpx;
+  margin: 0 auto 16rpx auto;
+  height: 300rpx;
+  background: url('./img/error.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.a-error-view-pic-limit {
+  background-image: url('./img/limit.png');
+}
+
+.a-error-view-pic-empty {
+  background-image: url('./img/empty.png');
+}
+
+.a-error-view-title {
+  font-size: 32rpx;
+  line-height: 45rpx;
+  color: #808080;
+}
+
+.a-error-view-result-view {
+  font-size: 26rpx;
+  color: #808080;
+}
+
+.a-error-view-action {
+  padding-top: 45rpx;
+}
+
+.a-error-view-button {
+  display: inline-block;
+  padding: 11rpx 42rpx;
+  line-height: 37rpx;
+  font-size: 26rpx;
+  color: #808080;
+  border: 1px solid #808080;
+  border-radius: 2rpx;
+}
+
+.a-error-view-button-hover {
+    background: #ddd;
+}
+
+.a-error-view-wrapper.a-error-view-wrapper-update {
+  line-height: 1.5;
+  padding-bottom: 90rpx;
+}
+
+.a-error-view-wrapper.a-error-view-wrapper-update .a-error-view-update-link {
+  color: #0C77D3;
+}

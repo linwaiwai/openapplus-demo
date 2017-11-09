@@ -1,0 +1,5 @@
+<import src="../../components/error-view/index.axml" />
+
+<view>
+    <template is="ErrorView" data={{...errorData}} />
+</view>

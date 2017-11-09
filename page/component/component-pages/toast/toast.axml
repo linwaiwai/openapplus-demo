@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="page-description">显示／隐藏弱提示</view>
+  <button type="primary" onTap="showToast">Show Toast</button>
+  <button type="primary" onTap="hideToast">Hide Toast</button>
+</view>

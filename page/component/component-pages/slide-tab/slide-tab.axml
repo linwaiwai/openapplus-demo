@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="page-description">slide-tab</view>
+  <view class="page-section">
+    <view class="page-section-demo">
+      <swiper duration="300" onChange="tabchange">
+        <block a:for="{{texts}}">
+          <swiper-item style="background: #{{index}}{{index}}{{index}}">
+            <scroll-view scroll-y>
+              <text>{{item}}</text>
+            </scroll-view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>

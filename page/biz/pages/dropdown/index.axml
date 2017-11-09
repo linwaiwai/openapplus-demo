@@ -1,0 +1,5 @@
+<import src="../../components/dropdown/index.axml" />
+
+<view>
+    <template is="DropdownSelect" data={{...dropdownSelectData}} />
+</view>

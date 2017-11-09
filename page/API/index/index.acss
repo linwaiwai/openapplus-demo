@@ -1,0 +1,13 @@
+@import "/util/lifecycle.acss";
+@import '/util/grid/index.acss';
+@import '/util/items/index.acss';
+
+.api {
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 28rpx;
+  padding: 32rpx;
+}
+
+.container {
+  padding-top: 48rpx;
+}

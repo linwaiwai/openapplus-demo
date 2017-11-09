@@ -1,0 +1,23 @@
+.a-tag {
+    display: inline-block;
+    position: relative;
+    font-size: 28rpx;
+    text-align: center;
+    padding: 0 30rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 6rpx;
+    box-sizing: border-box;
+}
+
+.a-tag-normal {
+    background-color: #fff; 
+    color: #888;
+    border: 1px solid #ddd;
+}
+
+.a-tag-active {
+    background-color: #fff;
+    color: #108ee9;
+    border: 1px solid #108ee9;
+}

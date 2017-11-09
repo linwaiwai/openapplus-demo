@@ -1,0 +1,5 @@
+<view class="page">
+  <button type="primary" onTap="actionSheetTap">
+    Show Action Sheets
+  </button>
+</view>

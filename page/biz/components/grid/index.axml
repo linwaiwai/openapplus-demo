@@ -1,0 +1,15 @@
+<template name="Grid">
+    <view class="grid">
+        <block a:for="{{list}}">
+            <view
+            style="width:{{100/(columnNum || 4)}}%;padding-top:{{100/(columnNum || 4)}}%;" 
+            class="grid-item" onTap="handleItemTap"
+            data-index={{index}}>
+                <view class="grid-item-wrapper">
+                    <image src="{{item.icon}}" class="grid-icon" mode="aspectFit" />
+                    <text class="grid-text">{{item.text}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+</template>
