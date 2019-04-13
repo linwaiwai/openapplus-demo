@@ -21,6 +21,9 @@ Page({
         that.setData({
           hasLogin: true
         })
+      }, 
+      fail(message){
+        console.error(message.err);
       }
     })
   }
