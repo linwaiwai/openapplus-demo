@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F18308DDC3DBE2599AAF7DA /* libPods-OpenApplusSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559E93CB881D858C9B911635 /* libPods-OpenApplusSample.a */; };
+		A82136FF230457D1008932A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82136FE230457D1008932A3 /* AppDelegate.m */; };
+		A8213705230457D1008932A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8213703230457D1008932A3 /* Main.storyboard */; };
+		A8213707230457D6008932A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8213706230457D6008932A3 /* Assets.xcassets */; };
+		A821370A230457D6008932A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8213708230457D6008932A3 /* LaunchScreen.storyboard */; };
+		A821370D230457D6008932A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A821370C230457D6008932A3 /* main.m */; };
+		A8213717230457D6008932A3 /* OpenApplusSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8213716230457D6008932A3 /* OpenApplusSampleTests.m */; };
+		A8213722230457D6008932A3 /* OpenApplusSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8213721230457D6008932A3 /* OpenApplusSampleUITests.m */; };
+		A821373123054E7C008932A3 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A821372F23054E7C008932A3 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8213713230457D6008932A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82136F2230457D1008932A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82136F9230457D1008932A3;
+			remoteInfo = OpenApplusSample;
+		};
+		A821371E230457D6008932A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A82136F2230457D1008932A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A82136F9230457D1008932A3;
+			remoteInfo = OpenApplusSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559E93CB881D858C9B911635 /* libPods-OpenApplusSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenApplusSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C882B1DF26AB40F92DB401 /* Pods-OpenApplusSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenApplusSample.release.xcconfig"; path = "Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample.release.xcconfig"; sourceTree = "<group>"; };
+		8107E5C1AFEAFDD1970B57B0 /* Pods-OpenApplusSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenApplusSample.debug.xcconfig"; path = "Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A82136FA230457D1008932A3 /* OpenApplusSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenApplusSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82136FD230457D1008932A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A82136FE230457D1008932A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8213704230457D1008932A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8213706230457D6008932A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8213709230457D6008932A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A821370B230457D6008932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A821370C230457D6008932A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8213712230457D6008932A3 /* OpenApplusSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenApplusSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8213716230457D6008932A3 /* OpenApplusSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenApplusSampleTests.m; sourceTree = "<group>"; };
+		A8213718230457D6008932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A821371D230457D6008932A3 /* OpenApplusSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenApplusSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8213721230457D6008932A3 /* OpenApplusSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenApplusSampleUITests.m; sourceTree = "<group>"; };
+		A8213723230457D6008932A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A821372F23054E7C008932A3 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A821373023054E7C008932A3 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82136F7230457D1008932A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F18308DDC3DBE2599AAF7DA /* libPods-OpenApplusSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A821370F230457D6008932A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A821371A230457D6008932A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82136F1230457D1008932A3 = {
+			isa = PBXGroup;
+			children = (
+				A82136FC230457D1008932A3 /* OpenApplusSample */,
+				A8213715230457D6008932A3 /* OpenApplusSampleTests */,
+				A8213720230457D6008932A3 /* OpenApplusSampleUITests */,
+				A82136FB230457D1008932A3 /* Products */,
+				C4E04AF3F27092049864BF50 /* Pods */,
+				BC0AE528A7C843968870A3CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A82136FB230457D1008932A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82136FA230457D1008932A3 /* OpenApplusSample.app */,
+				A8213712230457D6008932A3 /* OpenApplusSampleTests.xctest */,
+				A821371D230457D6008932A3 /* OpenApplusSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82136FC230457D1008932A3 /* OpenApplusSample */ = {
+			isa = PBXGroup;
+			children = (
+				A82136FD230457D1008932A3 /* AppDelegate.h */,
+				A82136FE230457D1008932A3 /* AppDelegate.m */,
+				A8213703230457D1008932A3 /* Main.storyboard */,
+				A821373023054E7C008932A3 /* DemoViewController.h */,
+				A821372F23054E7C008932A3 /* DemoViewController.m */,
+				A8213706230457D6008932A3 /* Assets.xcassets */,
+				A8213708230457D6008932A3 /* LaunchScreen.storyboard */,
+				A821370B230457D6008932A3 /* Info.plist */,
+				A821370C230457D6008932A3 /* main.m */,
+			);
+			path = OpenApplusSample;
+			sourceTree = "<group>";
+		};
+		A8213715230457D6008932A3 /* OpenApplusSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8213716230457D6008932A3 /* OpenApplusSampleTests.m */,
+				A8213718230457D6008932A3 /* Info.plist */,
+			);
+			path = OpenApplusSampleTests;
+			sourceTree = "<group>";
+		};
+		A8213720230457D6008932A3 /* OpenApplusSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8213721230457D6008932A3 /* OpenApplusSampleUITests.m */,
+				A8213723230457D6008932A3 /* Info.plist */,
+			);
+			path = OpenApplusSampleUITests;
+			sourceTree = "<group>";
+		};
+		BC0AE528A7C843968870A3CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559E93CB881D858C9B911635 /* libPods-OpenApplusSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4E04AF3F27092049864BF50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8107E5C1AFEAFDD1970B57B0 /* Pods-OpenApplusSample.debug.xcconfig */,
+				66C882B1DF26AB40F92DB401 /* Pods-OpenApplusSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82136F9230457D1008932A3 /* OpenApplusSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8213726230457D6008932A3 /* Build configuration list for PBXNativeTarget "OpenApplusSample" */;
+			buildPhases = (
+				656A40F0533EA62905283BC5 /* [CP] Check Pods Manifest.lock */,
+				A82136F6230457D1008932A3 /* Sources */,
+				A82136F7230457D1008932A3 /* Frameworks */,
+				A82136F8230457D1008932A3 /* Resources */,
+				49356C7FE41467434E78C7CD /* [CP] Embed Pods Frameworks */,
+				BB2648082341F42D3318A84A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenApplusSample;
+			productName = OpenApplusSample;
+			productReference = A82136FA230457D1008932A3 /* OpenApplusSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8213711230457D6008932A3 /* OpenApplusSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8213729230457D6008932A3 /* Build configuration list for PBXNativeTarget "OpenApplusSampleTests" */;
+			buildPhases = (
+				A821370E230457D6008932A3 /* Sources */,
+				A821370F230457D6008932A3 /* Frameworks */,
+				A8213710230457D6008932A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8213714230457D6008932A3 /* PBXTargetDependency */,
+			);
+			name = OpenApplusSampleTests;
+			productName = OpenApplusSampleTests;
+			productReference = A8213712230457D6008932A3 /* OpenApplusSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A821371C230457D6008932A3 /* OpenApplusSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A821372C230457D6008932A3 /* Build configuration list for PBXNativeTarget "OpenApplusSampleUITests" */;
+			buildPhases = (
+				A8213719230457D6008932A3 /* Sources */,
+				A821371A230457D6008932A3 /* Frameworks */,
+				A821371B230457D6008932A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A821371F230457D6008932A3 /* PBXTargetDependency */,
+			);
+			name = OpenApplusSampleUITests;
+			productName = OpenApplusSampleUITests;
+			productReference = A821371D230457D6008932A3 /* OpenApplusSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82136F2230457D1008932A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = openapplus;
+				TargetAttributes = {
+					A82136F9230457D1008932A3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A8213711230457D6008932A3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A82136F9230457D1008932A3;
+					};
+					A821371C230457D6008932A3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A82136F9230457D1008932A3;
+					};
+				};
+			};
+			buildConfigurationList = A82136F5230457D1008932A3 /* Build configuration list for PBXProject "OpenApplusSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82136F1230457D1008932A3;
+			productRefGroup = A82136FB230457D1008932A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82136F9230457D1008932A3 /* OpenApplusSample */,
+				A8213711230457D6008932A3 /* OpenApplusSampleTests */,
+				A821371C230457D6008932A3 /* OpenApplusSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82136F8230457D1008932A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A821370A230457D6008932A3 /* LaunchScreen.storyboard in Resources */,
+				A8213707230457D6008932A3 /* Assets.xcassets in Resources */,
+				A8213705230457D1008932A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8213710230457D6008932A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A821371B230457D6008932A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49356C7FE41467434E78C7CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656A40F0533EA62905283BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenApplusSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2648082341F42D3318A84A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenApplusSample/Pods-OpenApplusSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82136F6230457D1008932A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A821373123054E7C008932A3 /* DemoViewController.m in Sources */,
+				A821370D230457D6008932A3 /* main.m in Sources */,
+				A82136FF230457D1008932A3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A821370E230457D6008932A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8213717230457D6008932A3 /* OpenApplusSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8213719230457D6008932A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8213722230457D6008932A3 /* OpenApplusSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8213714230457D6008932A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82136F9230457D1008932A3 /* OpenApplusSample */;
+			targetProxy = A8213713230457D6008932A3 /* PBXContainerItemProxy */;
+		};
+		A821371F230457D6008932A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A82136F9230457D1008932A3 /* OpenApplusSample */;
+			targetProxy = A821371E230457D6008932A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8213703230457D1008932A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8213704230457D1008932A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8213708230457D6008932A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8213709230457D6008932A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8213724230457D6008932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8213725230457D6008932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8213727230457D6008932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8107E5C1AFEAFDD1970B57B0 /* Pods-OpenApplusSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenApplusSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapplus.OpenApplusSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8213728230457D6008932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C882B1DF26AB40F92DB401 /* Pods-OpenApplusSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenApplusSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapplus.OpenApplusSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A821372A230457D6008932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenApplusSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapplus.OpenApplusSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenApplusSample.app/OpenApplusSample";
+			};
+			name = Debug;
+		};
+		A821372B230457D6008932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenApplusSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapplus.OpenApplusSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenApplusSample.app/OpenApplusSample";
+			};
+			name = Release;
+		};
+		A821372D230457D6008932A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenApplusSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapplus.OpenApplusSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenApplusSample;
+			};
+			name = Debug;
+		};
+		A821372E230457D6008932A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenApplusSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.openapplus.OpenApplusSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenApplusSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82136F5230457D1008932A3 /* Build configuration list for PBXProject "OpenApplusSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8213724230457D6008932A3 /* Debug */,
+				A8213725230457D6008932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8213726230457D6008932A3 /* Build configuration list for PBXNativeTarget "OpenApplusSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8213727230457D6008932A3 /* Debug */,
+				A8213728230457D6008932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8213729230457D6008932A3 /* Build configuration list for PBXNativeTarget "OpenApplusSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A821372A230457D6008932A3 /* Debug */,
+				A821372B230457D6008932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A821372C230457D6008932A3 /* Build configuration list for PBXNativeTarget "OpenApplusSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A821372D230457D6008932A3 /* Debug */,
+				A821372E230457D6008932A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82136F2230457D1008932A3 /* Project object */;
+}

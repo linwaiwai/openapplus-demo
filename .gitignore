@@ -1,5 +1,10 @@
 dist/*
 dist
-dist copy/*
-dist copy
 .tea
+node_modules/*
+node_modules
+Pods
+buildProducts
+OpenApplus.xcworkspace/xcuserdata/linwaiwai.xcuserdatad/UserInterfaceState.xcuserstate
+OpenApplus.xcworkspace/xcuserdata/linwaiwai.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+Output
