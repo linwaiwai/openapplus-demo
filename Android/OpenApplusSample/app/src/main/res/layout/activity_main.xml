@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f2f2f2"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/openappluswx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="openappluswx"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="demo"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/openapplus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="openapplus-demo"
+        android:textColor="#ffffff"
+
+        />
+
+    <Button
+        android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="积分商城"
+        android:textColor="#ffffff"
+
+        />
+
+
+</LinearLayout>

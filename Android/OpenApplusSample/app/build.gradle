@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "29.0.1"
+    defaultConfig {
+        ndk { //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86","arm64-v8a","x86_64"
+        }
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        applicationId "com.openapplus.sample"
+        minSdkVersion 26
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug{
+            resValue "id", "action_search",""
+            resValue "id", "action_notification",""
+            resValue "id", "action_more",""
+            resValue "id", "action_menu",""
+            resValue "id", "action_close",""
+
+
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    maven { url "https://plugins.gradle.org/m2/" }
+    mavenCentral()
+    flatDir {
+
+        dirs 'libs'
+
+    }
+}
+
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'org.apache.commons.io:commonsIO:2.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.2'
+    implementation 'com.jakewharton:disklrucache:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    implementation 'org.apache.commons:commons-lang3:3.5'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.4'
+    implementation 'com.alibaba:fastjson:1.2.31'
+    implementation 'com.amap.api:3dmap:5.7.0'
+    implementation 'com.amap.api:location:4.6.0'
+}
