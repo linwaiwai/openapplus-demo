@@ -1,0 +1,33 @@
+{
+  "name": "@openapplus/cordova-openapplus-plugin",
+  "repository": "https://github.com/linwaiwai/openapplus-demo",
+  "version": "0.0.2",
+  "description": "cordova plugin for integerating openapplus",
+  "cordova": {
+    "id": "com.openapplus.cordova.plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "scripts": {
+    "install": "cordova plugin add @openapplus/cordova-openapplus-plugin",
+    "publish":"npm publish --access public"
+  },
+  "engines": {
+    "cordovaDependencies": {
+        "0.0.2": { "cordova-ios": ">2.0.0"}
+    }
+  },
+  "files": [
+    "src",
+    "plugin.xml",
+    "www",
+    "README.md"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "linwaiwai",
+  "license": "GPL-3.0"
+}

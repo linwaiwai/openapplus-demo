@@ -1,0 +1,14 @@
+{
+ "name": "cordovaopenapplusplugin",
+  "version": "0.0.1",
+  "description": "cordova plugin for integerating openapplus",
+  "cordova": {
+    "id": "com.openapplus.cordova.plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [],
+  "author": "linwaiwai",
+  "license": "MIT"
+}

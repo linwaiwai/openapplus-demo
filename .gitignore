@@ -1,8 +1,6 @@
 dist/*
 dist
 .tea
-node_modules/*
-node_modules
 Pods
 buildProducts
 OpenApplus.xcworkspace/xcuserdata/linwaiwai.xcuserdatad/UserInterfaceState.xcuserstate

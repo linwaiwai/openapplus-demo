@@ -85,7 +85,7 @@ DEPENDENCIES:
   - OpenApplus (from `./podspec/OpenApplus.podspec`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - libextobjc
     - MJRefresh
@@ -117,4 +117,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 452d20569e4e9a84dcb1102d34fb1cdf6d44666b
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.3

@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
     s.dependency 'MJRefresh', '3.1.12'
     s.dependency 'libextobjc', '~> 0.4.1'
     s.dependency 'AFNetworking'
-    s.dependency 'OpenUDID'
 
     s.subspec 'OpenApplus' do |ss|
         ss.vendored_frameworks = '*.framework'

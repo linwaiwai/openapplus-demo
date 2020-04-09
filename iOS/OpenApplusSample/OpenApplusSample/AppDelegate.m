@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import <OpenApplus/OpenApplus.h>
-#import <OpenUDID/OpenUDID.h>
 @interface AppDelegate ()
 
 @end
@@ -33,7 +32,7 @@
                                         andSecret:@"$2a$10$M3xCj9/NFcUyRLrFmk0qk.KAKyVEKLln7DER2g9ixtTOB42/lHdB2"];
                     OAAuthDtoWrapper *dto = [[OAAuthDtoWrapper alloc] init];
                     dto.code  = [data performSelector:@selector(code)];
-                    dto.deviceid  = [OpenUDID value];
+                    dto.deviceid  = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
                     dto.uid = uid;
                     dto.userInfo = user;
                     [requestWrapper sendObject:dto notify:notify];

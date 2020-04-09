@@ -1,0 +1,51 @@
+{
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 1
+        }
+    },
+    "sources": {
+        "https://github.com/CocoaPods/Specs.git": {
+            "source": "https://github.com/CocoaPods/Specs.git",
+            "count": 1
+        }
+    },
+    "libraries": {
+        "SDWebImage": {
+            "name": "SDWebImage",
+            "spec": "3.7.5",
+            "count": 1
+        },
+        "SSZipArchive": {
+            "name": "SSZipArchive",
+            "spec": "1.6.2",
+            "count": 1
+        },
+        "SVProgressHUD": {
+            "name": "SVProgressHUD",
+            "spec": "2.1.2",
+            "count": 1
+        },
+        "UMengUShare/Social/WeChat": {
+            "name": "UMengUShare/Social/WeChat",
+            "spec": "6.3.0",
+            "count": 1
+        },
+        "MJRefresh": {
+            "name": "MJRefresh",
+            "spec": "3.1.12",
+            "count": 1
+        },
+        "libextobjc": {
+            "name": "libextobjc",
+            "spec": "~> 0.4.1",
+            "count": 1
+        },
+        "AFNetworking": {
+            "name": "AFNetworking",
+            "spec": "~> 3.2.1",
+            "count": 1
+        }
+    }
+}
