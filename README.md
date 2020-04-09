@@ -6,3 +6,7 @@ http://www.openapplus.com
 http://www.jianshu.com/p/9c289f784928
 
 Demo演示
+
+如果iOS Demo报缺少arm7支持，可以使用https://pan.baidu.com/s/1AE6CuR3jVyc1S4-mFP_4AQ
+
+iOS如果确实libstdc++，可以使用 https://github.com/devdawei/libstdc-
