@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-openapplus-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-openapplus-plugin" version="0.0.5" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>CordovaOpenApplusPlugin</name>
 	<js-module name="CordovaOpenApplusPlugin" src="www/CordovaOpenApplusPlugin.js">
 		<clobbers target="cordova.plugins.CordovaOpenApplusPlugin" />
@@ -11,19 +11,20 @@
 			</feature>
 		</config-file>
 		<source-file src="src/ios/CordovaOpenApplusPlugin.m" />
-		<framework src="lib/OpenApplus.framework" embed="true" custom="true" />
+		<!-- <framework src="lib/OpenApplus.framework" embed="true" custom="true" /> -->
 		<podspec>
 		  <config>
 		    <source url="https://github.com/CocoaPods/Specs.git"/>
 		  </config>
 		  <pods use-frameworks="true">
-		    <pod name="SDWebImage"  spec="3.7.5" />
+		  <!--   <pod name="SDWebImage"  spec="3.7.5" />
 			<pod name="SSZipArchive"  spec="1.6.2" />
 			<pod name="SVProgressHUD"   spec="2.1.2" />
 			<pod name="UMengUShare/Social/WeChat"   spec="6.3.0" />
 			<pod name="MJRefresh"   spec="3.1.12" />
 			<pod name="libextobjc"   spec="~> 0.4.1" />
-			<pod name="AFNetworking"   spec="~> 3.2.1" />
+			<pod name="AFNetworking"   spec="~> 3.2.1" /> -->
+			<pod name="OpenApplus"   podspec="../../plugins/cordova-openapplus-plugin/podspec/OpenApplus.podspec" />
 		  </pods>
 		</podspec>
 	</platform>

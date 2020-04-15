@@ -9,8 +9,8 @@
   },
   "cordova-openapplus-plugin": {
     "source": {
-      "type": "local",
-      "path": "/Users/linwaiwai/Documents/Project/openapplus/openapplus-demo/Cordova-Demo/node_modules/cordovaopenapplusplugin"
+      "type": "registry",
+      "id": "@openapplus/cordova-openapplus-plugin@0.0.4"
     },
     "is_top_level": true,
     "variables": {}

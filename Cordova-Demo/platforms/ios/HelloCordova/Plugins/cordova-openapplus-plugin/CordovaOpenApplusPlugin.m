@@ -52,7 +52,6 @@
     __weak  CordovaOpenApplusPlugin* weakSelf = self;
     if (link != nil && [link length] > 0) {
         UINavigationController *navigationController = [[UINavigationController alloc] init];
-        navigationController.modalPresentationStyle = UIModalPresentationFullScreen;
         [self.viewController presentViewController:navigationController animated:YES completion:^{
             [OpenApplus setNavigationController:navigationController];
             [OpenApplus navigateToMiniProgram:link completion:^{

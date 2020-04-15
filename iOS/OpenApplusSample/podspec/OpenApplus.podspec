@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     }
     s.author   = "linwaiwai"
     s.platform     = :ios, "6.0.0"
-    s.source       = { :git => "https://github.com/linwaiwai/openapplus.git", :branch => "master"}
+    s.source       = { :git => "https://code.aliyun.com/openapplus/openapplus-framework.git", :branch => "master"}
     s.frameworks = "UIKit"
     s.requires_arc = true
     s.dependency 'SDWebImage', '3.7.5'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.dependency 'SVProgressHUD', '2.1.2'
     s.dependency 'UMengUShare/Social/WeChat', '6.3.0'
     s.dependency 'MJRefresh', '3.1.12'
-    s.dependency 'libextobjc', '~> 0.4.1'
+
     s.dependency 'AFNetworking'
 
     s.subspec 'OpenApplus' do |ss|

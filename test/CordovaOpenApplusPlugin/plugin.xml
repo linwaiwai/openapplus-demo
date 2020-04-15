@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="@openapplus/cordova-openapplus-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaOpenApplusPlugin</name>
+    <js-module name="CordovaOpenApplusPlugin" src="www/CordovaOpenApplusPlugin.js">
+        <clobbers target="cordova.plugins.CordovaOpenApplusPlugin" />
+    </js-module>
+</plugin>

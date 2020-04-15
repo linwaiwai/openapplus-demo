@@ -16,11 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
-function onButtonClicked(){
-    var CordovaOpenApplusPlugin = cordova.plugins.CordovaOpenApplusPlugin;
-    CordovaOpenApplusPlugin.navigateToMiniProgram("openapplus://jsApp/Lr12JhPrE9bg7N4uoABBXY");
-}
 var app = {
     // Application Constructor
     initialize: function() {
@@ -33,11 +28,6 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        var CordovaOpenApplusPlugin = cordova.plugins.CordovaOpenApplusPlugin;
-        CordovaOpenApplusPlugin.start("oa606f78973e434c78933b869d8ba73c59","$2a$10$4bbR9ZNAhm74x3sckSLf/uPyR.E2JQvACCHP4xKtLt/OOpbJsiq9q");
-        CordovaOpenApplusPlugin.enableLogging(true);
-
-        document.querySelector('button').addEventListener('click', onButtonClicked);
     },
 
     // Update DOM on a Received Event
